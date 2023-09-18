@@ -1,5 +1,5 @@
 import { StatusBar } from "react-native";
-import TodoList from "./src/components/TodoList";
+import { Home } from "./src/screens/Home";
 
 export default function App() {
   return (
@@ -9,8 +9,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-
-      <TodoList />
+      <Home />
     </>
   );
 }
